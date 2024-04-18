@@ -276,4 +276,8 @@
     border-radius: 12px;
     color: #282c34;
   }
+
+  .brand-name {
+    font-size: small;
+  }
 }
