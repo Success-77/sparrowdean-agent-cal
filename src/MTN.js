@@ -11,7 +11,7 @@ function amounts(dictionary, packages) {
 const MTN = () => {
   const initialAgentPrices = useMemo(
     () => ({
-      1: 4.5,
+      1: 4.7,
       2: 8.7,
       3: 12.5,
       4: 17,
