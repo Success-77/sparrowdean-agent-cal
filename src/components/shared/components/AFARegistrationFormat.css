@@ -1,0 +1,33 @@
+.afa-format {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.afa-format h2 {
+  border-bottom: 2px solid black;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  font-size: large;
+}
+
+.afa-format table {
+  width: 100%;
+}
+
+.afa-format tr {
+  line-height: 2;
+}
+.afa-format th {
+  text-align: left;
+  font-weight: 600;
+}
+
+.afa-format td {
+  text-align: right;
+}
+
+@media screen and (max-width: 768px) {
+  .afa-format {
+    width: 80%;
+  }
+}

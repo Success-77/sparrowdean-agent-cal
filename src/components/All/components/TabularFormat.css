@@ -1,0 +1,7 @@
+.sales-header {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  text-transform: uppercase;
+  font-size: medium;
+}

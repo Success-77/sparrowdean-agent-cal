@@ -1,0 +1,38 @@
+.copy {
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.copy img {
+  width: 30px;
+  background-color: transparent;
+  padding: 0.3rem;
+}
+
+.copy span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: medium;
+  color: #282c34;
+  padding: 0.3rem;
+}
+
+.copy:hover {
+  transition: 0.3s;
+  opacity: 0.6;
+}
+
+.copied {
+  text-align: center;
+  color: red;
+}
